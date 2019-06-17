@@ -25,6 +25,8 @@ module.exports = {
 
   fn: async function () {
 
+    UserService.addAdvent();
+
     if (this.req.me) {
       throw {redirect:'/welcome'};
     }
