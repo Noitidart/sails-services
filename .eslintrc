@@ -41,6 +41,9 @@
     // Models:
     "User": true,
 
+    // Services:
+    "UserService": true
+
     // …and any others.
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   },
